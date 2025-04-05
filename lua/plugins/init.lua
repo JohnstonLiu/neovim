@@ -1,9 +1,9 @@
 return {
+    'rebelot/kanagawa.nvim',
     {
         'nvim-telescope/telescope.nvim', tag = '0.1.8',
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
-    'rebelot/kanagawa.nvim',
     { 'nvim-treesitter/nvim-treesitter', build = ':TSUpdate' },
     'nvim-treesitter/playground',
     {
@@ -13,5 +13,6 @@ return {
     },
     'mbbill/undotree',
     'tpope/vim-fugitive',
+    'github/copilot.vim',
 }
 
